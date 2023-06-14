@@ -1,0 +1,73 @@
+
+/* Universal box sizing */
+* {   
+  box-sizing: border-box;
+  }
+   
+  /* Style the header */
+  .header {   
+  background-color:green;   
+  text-align: center;   
+  padding: 20px;
+  }
+   
+  /* Style the top navigation bar */
+  .topnav {   
+  overflow: hidden;   
+  background-color: black;
+  }
+   
+  /* Style the topnav links */
+  .topnav a {
+      float:left;   
+      display: block;
+      color:white;   
+      text-align: center;   
+      padding: 14px 16px;   
+      text-decoration: none;
+  }
+   
+  /* Change color on hover */
+  .topnav a:hover {   
+  background-color: white;
+      color:black;
+  }
+   
+  /* Create two equal columns that float next to
+  each other */
+  .column {
+      float:left;
+      width:50%;   
+      padding: 15px;   
+  background-color: yellow;
+  }
+
+    /* Create two equal columns that float next to
+  each other */
+  .no_column {
+    float:left;
+    width:100%;   
+    padding: 15px;   
+background-color: yellow;
+}
+   
+  /* Clear floats after the columns */
+  .row:after {
+     content: "";   
+      display: table;
+      clear:both;
+  }
+   
+  .footer {   
+  background-color: yellow;   
+  text-align: center;   
+  padding: 10px;
+    
+    @media only screen and (max-width: 200px) {
+    .column {
+      float:left;
+      width:50%;   
+      padding: 15px;   
+  background-color: yellow;
+  }
+ }
