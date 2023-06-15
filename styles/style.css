@@ -32,7 +32,20 @@
   background-color: white;
       color:black;
   }
-   
+  
+    /* Added for flexbox example - */
+  .container {
+    display: flex;
+    background-color: #ff3399;
+  }
+  
+  .box {
+    background-color: #ffffcc;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
   /* Create two equal columns that float next to
   each other */
   .column {
