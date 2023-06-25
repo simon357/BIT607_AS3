@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Haukai Restaurant Staff Roster</title>
+    <link rel="stylesheet"
+href="../styles/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <p>Only people who know the password should be able to see this page.</p>
+
+    <div id="main-content">
+      <div class="call-to-action">Call to action goes here.</div>
+      <div class="prompt">Prompt 1</div>
+      <div class="prompt">Prompt 2</div>
+      <div class="prompt">Prompt 3</div>
+  
+      <article>This is where the rest of the page's content goes.</article>
+    </div>
+
+  </body>
+</html>
