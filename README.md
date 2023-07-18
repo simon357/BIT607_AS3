@@ -5,5 +5,25 @@ https://learn.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everythi
 
 https://serverfault.com/questions/532945/list-all-groups-and-their-members-with-powershell-on-win2008r2
 
+https://learn.microsoft.com/en-us/powershell/module/exchange/get-mailboxpermission?view=exchange-ps
+Get-MailboxPermission -Identity Room222 -Owner
 
+-ResultSize Unlimited
 
+-Identity
+The Identity parameter specifies the mailbox you want to view. You can use any value that uniquely identifies the mailbox. For example:
+
+Name
+Alias
+Distinguished name (DN)
+Canonical DN
+Domain\Username
+Email address
+GUID
+LegacyExchangeDN
+SamAccountName
+User ID or user principal name (UPN)
+
+https://activedirectorypro.com/list-ntfs-permissions-all-folders/#:~:text=To%20get%20NTFS%20folder%20permissions,to%20the%20get%2Dacl%20command.
+
+Get-ChildItem -Directory -Path "\\srv-vm1\share" -Recurse -Force | get-acl | format-list | out-file c:\it\ntfs-report.txt
